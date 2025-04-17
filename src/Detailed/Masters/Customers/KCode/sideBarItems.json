@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Home",
+        "icon": "bi bi-grid",
+        "url": "../../../../../../index.html"
+    },
+    {
+        "name": "Parent",
+        "icon": "bi bi-arrow-90deg-left",
+        "url": "../../../../Menu/HtmlFiles/"
+    },
+    {
+        "name": "Dashboard",
+        "url": "index.html",
+        "icon": "bi bi-grid-fill"
+    },
+    {
+        "name": "Create",
+        "key": "Create",
+        "icon": "bi bi-people-fill",
+        "children": [
+            {
+                "name": "New Customer",
+                "url": "Create.html",
+                "icon": "bi bi-plus-square-fill"
+            }
+        ]
+    },
+    {
+        "name": "ShowAll",
+        "key": "ShowAll",
+        "icon": "bi bi-table",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "ShowAll.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "Alter",
+        "key": "Alter",
+        "icon": "bi bi-pencil-square",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Alter.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "Delete",
+        "key": "Delete",
+        "icon": "bi bi-trash3",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "Delete.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "BranchWise",
+        "key": "BranchWise",
+        "icon": "bi bi-boxes",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "BranchWise.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    },
+    {
+        "name": "Orders",
+        "key": "CustomersBtn",
+        "icon": "bi bi-cart3",
+        "children": [
+            {
+                "name": "ShowAll",
+                "url": "CustomersBtn.html",
+                "icon": "bi bi-grid-3x3"
+            }
+        ]
+    }
+]

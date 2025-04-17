@@ -1,0 +1,4 @@
+{
+    "StartRoute": "Custom/Cleaning/Masters/V2/ItemType/DataOnly",
+    "tableName":"MastersItemTypes"
+}

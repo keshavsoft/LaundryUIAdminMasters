@@ -1,0 +1,4 @@
+{
+    "StartRoute": "/Custom/Cleaning/V1/Masters/ItemNames/Get/DataOnly",
+    "tableName":"MastersItems"
+}
