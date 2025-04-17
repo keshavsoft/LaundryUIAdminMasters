@@ -1,8 +1,7 @@
 {
-    "routePath": "binV4",
-    "MastersAddOnstableName":"MastersAddOns",
-    "MastersCustomerstableName":"MastersCustomers",
-    "MastersItemstableName":"MastersItems",
-    "MastersItemServicetableName":"MastersItemService",
-    "MastersItemTypestableName":"MastersItemTypes"
+    "MastersAddOnstableName": "/Custom/Cleaning/V1/Masters/AddOns/AggrFuncs/Count",
+    "MastersCustomerstableName": "/Custom/Cleaning/V1/Masters/Customers/AggrFuncs/Count",
+    "MastersItemstableName": "/Custom/Cleaning/V1/Masters/ItemNames/AggrFuncs/Count",
+    "MastersItemServicetableName": "/Custom/Cleaning/V1/Masters/MastersItemService/AggrFuncs/Count",
+    "MastersItemTypestableName": "/Custom/Cleaning/V1/Masters/MastersItemTypes/AggrFuncs/Count"
 }

@@ -1,5 +1,5 @@
 const StartFunc = (data) => {
-    let localItemTypedata = data.Count
+    let localItemTypedata = data
     jFLocalToInputItemTypeId(localItemTypedata)
     jFLocalToInputItemTypeCount(localItemTypedata)
 };
