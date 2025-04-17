@@ -2,12 +2,12 @@
     {
         "name": "Home",
         "icon": "bi bi-grid",
-        "url": "../../../../../index.html"
+        "url": "../../Menu/HtmlFiles/index.html"
     },
     {
         "name": "Parent",
         "icon": "bi bi-arrow-90deg-left",
-        "url": "../../../../Admin/Menu/HtmlFiles/index.html"
+        "url": "../../Menu/HtmlFiles/index.html"
     },
     {
         "name": "Dashboard",

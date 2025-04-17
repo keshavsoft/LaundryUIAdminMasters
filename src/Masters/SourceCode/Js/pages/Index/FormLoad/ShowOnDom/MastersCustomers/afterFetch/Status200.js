@@ -1,5 +1,5 @@
 const StartFunc = (data) => {
-    let localCustomerdata = data
+    let localCustomerdata = data.Count
     jFLocalToInputCustomersID(localCustomerdata)
     jFLocalToInputCustomersCount(localCustomerdata)
 };

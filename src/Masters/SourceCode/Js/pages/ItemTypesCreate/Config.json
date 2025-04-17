@@ -1,4 +1,4 @@
 {
-    "routePath": "/Custom/Cleaning/V1/Masters/MastersItemTypes/Get/DataOnly",
+    "routePath": "binV4",
     "tableName": "MastersItemTypes"
 }

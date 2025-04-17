@@ -5,6 +5,7 @@ import { StartFunc as StartFuncFromUrlParams } from "./FromUrlParams/EntryFile.j
 const StartFunc = async () => {
     StartFuncFromUrlParams();
     StartFuncAddListeners();
+
     ToDataList();
 };
 
