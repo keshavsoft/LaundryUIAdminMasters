@@ -1,4 +1,5 @@
 {
     "routePath": "/Custom/Cleaning/V1/Masters/MastersItemService/Get/DataOnly",
-    "tableName":"MastersItems"
+    "tableName":"MastersItems",
+    "PostUrl": "Insert/AsIs"
 }

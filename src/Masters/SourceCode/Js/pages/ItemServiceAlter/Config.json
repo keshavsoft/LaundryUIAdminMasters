@@ -1,1 +1,4 @@
-{"routePath":"bin","tableName":"Openings"}
+{
+    "tableName": "MastersItemService",
+    "GetUrl": "Read/AsIs"
+}
