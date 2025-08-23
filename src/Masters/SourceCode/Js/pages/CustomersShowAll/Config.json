@@ -1,5 +1,4 @@
 {
-    "routePath": "binV4",
-    "tableName": "MastersAddOns",
-    "url":"/Custom/Cleaning/V1/Masters/Customers/Get/DataOnly"
+    "tableName": "MastersCustomers",
+    "GetUrl": "Read/AsIs"
 }

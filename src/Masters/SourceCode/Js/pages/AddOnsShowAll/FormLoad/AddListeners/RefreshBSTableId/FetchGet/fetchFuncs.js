@@ -1,12 +1,16 @@
-import ConfigJson from '../../../../Config.json' with {type: 'json'};
+import ConfigJson from "../../../../Config.json" with { type: "json" };
+import CommonConfig from "../../../../../CommonConfig.json" with { type: "json" };
 
 let StartFunc = async () => {
-    
-    const jVarLocalStartUrl = ConfigJson.url;
-    // const jVarLocalTableName = ConfigJson.tableName;
-    let jVarLocalFetchUrl = `${jVarLocalStartUrl}`;
+    let jVarLocalFetchUrl = ConfigJson.GetUrl;
 
-    let response = await fetch(jVarLocalFetchUrl);
+    let jVarLocalTableName = ConfigJson.tableName;
+
+    let jVarLocalCommonFetchUrl = CommonConfig.route;
+
+    let fetchUrl = `${jVarLocalCommonFetchUrl}/${jVarLocalTableName}/${jVarLocalFetchUrl}`;
+
+    let response = await fetch(fetchUrl);
 
     return await response;
 };
