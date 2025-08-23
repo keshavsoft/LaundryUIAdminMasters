@@ -1,4 +1,5 @@
 {
     "routePath": "binV4",
-    "tableName":"MastersItemService"
+    "tableName":"MastersItemService",
+    "PostUrl":"Insert/AsIs"
 }

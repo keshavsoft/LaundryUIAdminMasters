@@ -1,18 +1,25 @@
-import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/entryFile.js";
-import { StartFunc as ItemNameGenerate } from "./ItemNameGenerate.js";
-import ConfigJson from '../../../../Config.json' with {type: 'json'};
+import { StartFunc as StartFuncFetchHeaders } from "./FetchHeaders/EntryFile.js";
+import ConfigJson from "../../../../Config.json" with { type: "json" };
+import CommonConfig from "../../../../../CommonConfig.json" with { type: "json" };
 
 let StartFunc = async () => {
-    ItemNameGenerate();
-    const jVarLocalStartUrl = ConfigJson.routePath;
-    const jVarLocalTableName = ConfigJson.tableName;
-    let jVarLocalFetchUrl = `/${jVarLocalStartUrl}/${jVarLocalTableName}/Create`;
+    let jVarLocalFetchUrl = ConfigJson.PostUrl;
+
+    let jVarLocalTableName = ConfigJson.tableName;
+
+    let jVarLocalCommonFetchUrl = CommonConfig.route;
 
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
-    let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
+
+    let fetchUrl = `${jVarLocalCommonFetchUrl}/${jVarLocalTableName}/${jVarLocalFetchUrl}`;
+
+    let response = await fetch(fetchUrl, jVarLocalFetchHeaders);
 
     return await response;
 };
 
 export { StartFunc };
+
+
+
 

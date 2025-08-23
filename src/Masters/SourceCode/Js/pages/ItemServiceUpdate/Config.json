@@ -1,3 +1,5 @@
 {
-    "routePath": "/Custom/Cleaning/V1/Masters/MastersItemService/Alter"
+    "tableName": "MastersItemService",
+    "AlterUrl": "Alter/WithPk",
+    "RowData": "Read/RowDataWithPk"
 }

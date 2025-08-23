@@ -1,11 +1,21 @@
-// import urlJson from '../../../../url.json' with {type: 'json'};
+import ConfigJson from "../../../../Config.json" with { type: "json" };
+import CommonConfig from "../../../../../CommonConfig.json" with { type: "json" };
 
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = `/Custom/Cleaning/V1/Masters/MastersItemTypes/Get/DataOnly`;
-    let response = await fetch(jVarLocalFetchUrl);
+    let jVarLocalFetchUrl = ConfigJson.GetUrl;
+
+    let jVarLocalTableName = ConfigJson.tableName;
+
+    let jVarLocalCommonFetchUrl = CommonConfig.route;
+
+    let fetchUrl = `${jVarLocalCommonFetchUrl}/${jVarLocalTableName}/${jVarLocalFetchUrl}`;
+
+    let response = await fetch(fetchUrl);
 
     return await response;
 };
 
 export { StartFunc };
+
+
 
