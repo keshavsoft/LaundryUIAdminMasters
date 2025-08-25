@@ -1,4 +1,4 @@
 {
-    "GetUrl": "Read/AsIs",
+    "StartRoute": "binV4",
     "tableName":"MastersItemTypes"
 }

@@ -5,9 +5,9 @@ import CommonConfig from "../../../../../CommonConfig.json" with { type: "json" 
 let StartFunc = async () => {
     let jVarLocalFilterString = getUrlQueryParams({ inGetKey: "UuId" });
 
-    let jVarLocalFetchUrl = ConfigJson.GetUrl;
+    let jVarLocalFetchUrl = ConfigJson.AlterUrl;
 
-    let jVarLocalTableName = ConfigJson.TableName;
+    let jVarLocalTableName = ConfigJson.tableName;
 
     let jVarLocalCommonFetchUrl = CommonConfig.route;
 
