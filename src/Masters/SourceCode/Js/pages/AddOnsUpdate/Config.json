@@ -1,5 +1,6 @@
 {
     "tableName": "MastersAddOns",
     "GetUrl": "Read/AsIs",
-    "RowData":"Read/RowDataWithPk"
+    "RowData":"Read/RowDataWithPk",
+    "AlterUrl":"Alter/WithPk"
 }

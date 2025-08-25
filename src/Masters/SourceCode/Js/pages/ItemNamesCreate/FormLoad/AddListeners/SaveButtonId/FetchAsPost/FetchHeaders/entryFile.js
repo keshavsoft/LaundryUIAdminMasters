@@ -2,8 +2,12 @@ import KeysJson from './Keys.json' with {type: 'json'};
 
 let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
+    let jVarLocalSerializedData = jFLocalserializeFormData(jVarLocalForm);
 
-    KeysJson.body = JSON.stringify(jFLocalserializeFormData(jVarLocalForm));
+    jVarLocalSerializedData.ItemName = 
+        `${jVarLocalSerializedData.Category || ""} ${jVarLocalSerializedData.ItemType || ""} ${jVarLocalSerializedData.Service || ""}`;
+
+    KeysJson.body = JSON.stringify(jVarLocalSerializedData);
 
     return KeysJson;
 };
